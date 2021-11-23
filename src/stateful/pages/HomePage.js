@@ -12,7 +12,7 @@ import Paper from "@mui/material/Paper";
 import SearchEngine from "../../core/SearchEngine.js";
 import TrainInfoView from "../molecules/TrainInfoView.js";
 
-const DEFAULT_ACTIVE_STATION_NAME = "Colombo Fort";
+const DEFAULT_ACTIVE_STATION_NAME = "Nugegoda";
 
 export default class HomePage extends Component {
   constructor(props) {
