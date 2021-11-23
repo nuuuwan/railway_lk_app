@@ -1,6 +1,10 @@
 import TrainList from "./TrainList.js";
 import StopList from "./StopList.js";
 
+function timeArriveOrDepart(d) {
+  return d.timeArrive || d.timeDepart;
+}
+
 export default class SearchEngine {
   static async getTrainsForStation(stationName) {
     const trainList = await TrainList.get();
@@ -25,13 +29,7 @@ export default class SearchEngine {
       })
       .filter((d) => d !== null)
       .sort(function (a, b) {
-        if (a.timeArrive && b.timeArrive) {
-          return a.timeArrive - b.timeArrive;
-        }
-        if (a.timeDepart && b.timeDepart) {
-          return a.timeDepart - b.timeDepart;
-        }
-        return a.stationName.localeCompare(b.stationName);
+        return timeArriveOrDepart(a) - timeArriveOrDepart(b);
       });
   }
 }
