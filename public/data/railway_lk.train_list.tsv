@@ -1,0 +1,480 @@
+train_no	name
+0	Rail Bus Rail Bus
+1	School Vacation Special School Vacation
+2	Rail Bus
+3	Rail Bus
+4	Rail Bus
+5	Rail Bus
+6	Rail Bus
+7	Rail Bus
+8	Rail Bus
+9	Rail Bus
+10	Rail Bus
+11	Rail Bus
+12	Rail Bus
+28	Local Trains
+1001	Denuwara Menike Intercity
+1002	Denuwara Menike Intercity
+1005	Podi Menike Express Train
+1006	Podi Menike Express Train
+1007	Express Train
+1008	Express Train
+1009	A.c. Intercity
+1010	Intercity Intercity
+1015	Udarata Menike Express Train
+1016	Udarata Menike Express Train
+1019	Colombo Commuter
+1020	Express Train
+1023	Express Train
+1024	Express Train
+1026	Colombo Commuter
+1027	Local Trains
+1028	Local Trains
+1029	Intercity Intercity
+1030	Intercity Intercity
+1031	Intercity Intercity
+1032	Intercity Intercity
+1033	Intercity A.c. Intercity
+1034	Intercity Intercity
+1035	Express Train
+1036	Express Train
+1037	Long Distance
+1038	Long Distance
+1039	Express Train
+1040	Long Distance
+1041	Hithachi Special Trains (sch.)
+1042	Hithachi Special Trains (sch.)
+1045	Night Mail Night Mail Train
+1046	Night Mail Express Train
+1102	Mixed Trains
+1109	Colombo Commuter
+1119	Colombo Commuter
+1120	Local Trains
+1121	Local Trains
+1124	Colombo Commuter
+1125	Colombo Commuter
+1126	Mixed Trains
+1127	Colombo Commuter
+1128	Mixed Trains
+1129	Colombo Commuter
+1130	Colombo Commuter
+1131	Colombo Commuter
+1132	Colombo Commuter
+1133	Colombo Commuter
+1135	Colombo Commuter
+1136	Colombo Commuter
+1137	Mixed Trains
+1138	Mixed Trains
+1139	Local Trains
+1140	Colombo Commuter
+1141	Colombo Commuter
+1142	Mixed Trains
+1143	Colombo Commuter
+1144	Colombo Commuter
+1146	Budget Train Budjet Train
+1147	Colombo Commuter
+1149	Local Trains
+1150	Colombo Commuter
+1151	Colombo Commuter
+1152	Mixed Trains
+1153	Local Trains
+1154	Colombo Commuter
+1158	Colombo Commuter
+1159	Local Trains
+1162	Colombo Commuter
+1163	Colombo Commuter
+1164	Colombo Commuter
+1167	Colombo Commuter
+1168	Colombo Commuter
+1169	Colombo Commuter
+1170	Colombo Commuter
+1171	Colombo Commuter
+1172	Colombo Commuter
+1173	Colombo Commuter
+1175	Colombo Commuter
+1176	Colombo Commuter
+1177	Colombo Commuter
+1183	Colombo Commuter
+1184	Colombo Commuter
+1185	Local Trains
+1186	Colombo Commuter
+1189	Mixed Trains
+1191	Colombo Commuter
+1192	Colombo Commuter
+1194	Colombo Commuter
+1196	Colombo Commuter
+1236	Local Trains
+1244	Local Trains
+1245	Pan Local Trains
+1507	Colombo Commuter
+1511	Mixed Trains
+1512	Colombo Commuter
+1515	Passenger
+1516	Colombo Commuter
+1518	Colombo Commuter
+1519	Local Trains
+1520	Local Trains
+1525	Colombo Commuter
+1526	Colombo Commuter
+1527	Colombo Commuter
+1528	Colombo Commuter
+1529	Colombo Commuter
+1530	Colombo Commuter
+1531	Colombo Commuter
+1534	Colombo Commuter
+1535	Colombo Commuter
+1536	Colombo Commuter
+1537	Colombo Commuter
+1538	Colombo Commuter
+1539	Colombo Commuter
+1541	Mixed Trains
+1542	Colombo Commuter
+1543	Colombo Commuter
+1544	Local Trains
+1546	Local Trains
+1547	Colombo Commuter
+1549	Colombo Commuter
+1550	Colombo Commuter
+1551	Colombo Commuter
+1552	Colombo Commuter
+1553	Colombo Commuter
+1558	Mixed Trains
+1565	Colombo Commuter
+1566	Colombo Commuter
+1568	Colombo Commuter
+1569	Colombo Commuter
+1570	Colombo Commuter
+1573	Local Trains
+1574	Colombo Commuter
+1575	Colombo Commuter
+1576	Mixed Trains
+1577	Colombo Commuter
+1578	Colombo Commuter
+1580	Colombo Commuter
+1581	Colombo Commuter
+1582	Mixed Trains
+1583	Local Trains
+1584	Colombo Commuter
+1585	Colombo Commuter
+1587	Mixed Trains
+1589	Colombo Commuter
+1591	Colombo Commuter
+1592	Colombo Commuter
+1595	Colombo Commuter
+1596	Mixed Trains
+1773	a Local Trains
+2019	Local Trains
+2020	Baby Train
+2025	Colombo Commuter
+2026	Colombo Commuter
+2027	Local Trains
+2036	Colombo Commuter
+2105	Local Trains
+2185	Local Trains
+2200	Local Trains
+2202	Local Trains
+2231	Local Trains
+2236	Local Trains
+2237	Mixed Trains
+2243	Baby Train
+2244	Local Trains
+2503	Local Trains
+2606	Night Mail Train
+2627	Local Trains
+2630	Local Trains
+2632	Local Trains
+2633	Local Trains
+2638	Local Trains
+2640	Local Trains
+3000	Special Special
+3001	Special Special
+3002	Special Special
+3404	Colombo Commuter
+3406	Colombo Commuter
+3409	Colombo Commuter
+3411	Mixed Trains
+3412	Colombo Commuter
+3417	Colombo Commuter
+3418	Colombo Commuter
+3419	Colombo Commuter
+3420	Colombo Commuter
+3422	Colombo Commuter
+3423	Colombo Commuter
+3424	Colombo Commuter
+3425	Colombo Commuter
+3426	Colombo Commuter
+3427	Colombo Commuter
+3428	Colombo Commuter
+3432	Colombo Commuter
+3800	Colombo Commuter
+3801	Colombo Commuter
+3803	Colombo Commuter
+3805	Colombo Commuter
+3808	Colombo Commuter
+3809	Colombo Commuter
+3810	Colombo Commuter
+3816	Colombo Commuter
+3817	Colombo Commuter
+3819	Colombo Commuter
+3820	Mixed Trains
+3821	Colombo Commuter
+3823	Colombo Commuter
+3824	Colombo Commuter
+3825	Colombo Commuter
+3828	Colombo Commuter
+3830	Colombo Commuter
+4000	Special Trains (sch.)
+4001	Special Trains (sch.)
+4002	Special Trains (sch.)
+4003	Intercity Express A.c. Intercity
+4004	Special Trains (sch.)
+4006	Special Trains (sch.)
+4007	Special Trains (sch.)
+4017	Uttara Devi A.c. Intercity
+4018	Uttara Devi Intercity
+4021	A.c. Intercity A.c. Intercity
+4022	A.c. Intercity A.c. Intercity
+4077	Yal Devi Long Distance
+4078	Yal Devi Long Distance
+4080	Long Distance
+4081	Long Distance
+4082	Long Distance
+4085	Rajarata Rejini Express Train
+4086	Rajarata Rejini Express Train
+4087	Long Distance
+4088	Night Mail Long Distance
+4089	Mail Long Distance
+4090	Night Mail Night Mail Train
+4093	Express Train
+4094	Long Distance
+4141	Local Trains
+4440	Colombo Commuter
+4445	Baby Train
+4448	Rail Bus
+4449	Baby Train
+4455	Baby Train
+4467	Baby Train
+4468	Colombo Commuter
+4469	Colombo Commuter
+4470	Office Train Colombo Commuter
+4472	Local Trains
+4480	Local Trains
+4552	Local Trains
+4850	Baby Train
+4853	Baby Train
+4856	Colombo Commuter
+4857	Colombo Commuter
+4858	Rail Bus
+4859	Colombo Commuter
+4865	Baby Train
+4882	Local Trains
+5067	Express Train
+5068	Long Distance
+5443	Trial Basis Local Trains
+5445	Trial Basis Local Trains
+5452	Long Distance
+5844	Trial Basis Local Trains
+5845	Trial Basis Local Trains
+5846	Trial Basis Local Trains
+5868	Long Distance
+6000	School Vacation Special School Vacation
+6011	Udaya Devi Express Train
+6012	Udaya Devi Express Train
+6075	Pulathisi Intercity
+6076	Pulathisi Intercity
+6079	Night Mail Night Mail Train
+6080	Night Mail Night Mail Train
+6083	Mixed Trains
+6084	Night Mail Train
+6479	Mixed Trains
+6891	Mixed Trains
+7083	Night Mail Night Mail Train
+7084	Night Mail Night Mail Train
+7490	Local Trains
+7491	Local Trains
+7886	Local Trains
+7887	Local Trains
+8010	Feast Of The Sick At Bassilika Tewatta Special
+8039	Colombo Commuter
+8040	Express Train
+8050	Express Train
+8051	Colombo Commuter
+8053	Local Trains
+8054	Dakshina Intercity Express Intercity
+8055	Dakshina Intercity Express Intercity
+8056	Galu Kumari Colombo Commuter
+8057	Galu Kumari Express Train
+8058	Ruhunu Kumari Express Train
+8059	Ruhunu Kumari Express Train
+8060	Express Train
+8061	Express Train
+8062	Colombo Commuter
+8063	Local Trains
+8064	Colombo Commuter
+8065	Colombo Commuter
+8085	Rajarata Regini Express Train
+8086	Rajarata Rejini Express Train
+8093	Express Train
+8094	Long Distance
+8096	Sagarika Express Train
+8097	Sagarika Express Train
+8102	Feast Of The Sick At Bassilika Tewatta Special
+8103	Feast Of The Sick At Bassilika Tewatta Special
+8302	Colombo Commuter
+8304	Local Trains
+8309	Colombo Commuter
+8310	Colombo Commuter
+8311	Night Mail Night Mail Train
+8313	Colombo Commuter
+8316	Colombo Commuter
+8317	Colombo Commuter
+8318	Colombo Commuter
+8319	Local Trains
+8320	Long Distance
+8321	Express Train
+8322	Local Trains
+8324	Colombo Commuter
+8325	Colombo Commuter
+8326	Colombo Commuter
+8327	Samudra Devi Express Train
+8328	Colombo Commuter
+8329	Local Trains
+8330	Colombo Commuter
+8331	Colombo Commuter
+8333	Colombo Commuter
+8334	Colombo Commuter
+8335	Colombo Commuter
+8336	Colombo Commuter
+8338	Local Trains
+8339	Colombo Commuter
+8340	Local Trains
+8341	Colombo Commuter
+8342	Colombo Commuter
+8344	Colombo Commuter
+8345	Local Trains
+8346	Colombo Commuter
+8349	Mixed Trains
+8350	Mixed Trains
+8351	Local Trains
+8352	Colombo Commuter
+8355	Colombo Commuter
+8356	Colombo Commuter
+8357	Local Trains
+8359	Local Trains
+8362	Colombo Commuter
+8363	Colombo Commuter
+8364	Colombo Commuter
+8365	Colombo Commuter
+8366	Colombo Commuter
+8367	Colombo Commuter
+8368	Local Trains
+8372	Colombo Commuter
+8373	Colombo Commuter
+8374	Colombo Commuter
+8375	Colombo Commuter
+8376	Colombo Commuter
+8377	New Train Local Trains
+8378	Colombo Commuter
+8379	Local Trains
+8390	Colombo Commuter
+8391	Colombo Commuter
+8708	Local Trains
+8710	Colombo Commuter
+8711	Colombo Commuter
+8713	Mixed Trains
+8714	Local Trains
+8716	Colombo Commuter
+8717	Colombo Commuter
+8718	Colombo Commuter
+8719	Local Trains
+8723	Colombo Commuter
+8724	Colombo Commuter
+8725	Colombo Commuter
+8726	Commutor Colombo Commuter
+8727	Colombo Commuter
+8729	Colombo Commuter
+8730	Colombo Commuter
+8732	Colombo Commuter
+8733	Colombo Commuter
+8736	Colombo Commuter
+8741	Mixed Trains
+8742	Colombo Commuter
+8744	Colombo Commuter
+8748	Colombo Commuter
+8749	Colombo Commuter
+8750	Local Trains
+8751	Colombo Commuter
+8752	Local Trains
+8755	Colombo Commuter
+8756	Colombo Commuter
+8757	Colombo Commuter
+8758	Colombo Commuter
+8759	Colombo Commuter
+8760	Samudra Devi Long Distance
+8761	Colombo Commuter
+8762	Colombo Commuter
+8763	Colombo Commuter
+8764	Colombo Commuter
+8765	Colombo Commuter
+8766	Express Train
+8768	Local Trains
+8772	Colombo Commuter
+8773	Colombo Commuter
+8774	Colombo Commuter
+8775	Night Mail Night Mail Train
+8777	Long Distance
+8780	Colombo Commuter
+8781	Colombo Commuter
+8782	Colombo Commuter
+8783	Colombo Commuter
+8788	Colombo Commuter
+8789	Local Trains
+9253	Colombo Commuter
+9255	Colombo Commuter
+9260	Colombo Commuter
+9262	Colombo Commuter
+9263	Colombo Commuter
+9264	Colombo Commuter
+9265	Colombo Commuter
+9266	Local Trains
+9268	Colombo Commuter
+9269	Colombo Commuter
+9270	Colombo Commuter
+9271	Colombo Commuter
+9645	Local Trains
+9646	Colombo Commuter
+9647	Colombo Commuter
+9648	Colombo Commuter
+9649	Colombo Commuter
+9651	Colombo Commuter
+9652	Colombo Commuter
+9653	Colombo Commuter
+9655	Colombo Commuter
+9657	Colombo Commuter
+9658	Commutor Colombo Commuter
+9661	Colombo Commuter
+9662	A Colombo Commuter
+9663	Colombo Commuter
+9670	Colombo Commuter
+9673	Colombo Commuter
+10000	Special Train Special
+10001	Special Train Special
+10005	Sri Padha Special Special
+10006	Sri Padha Special Special Trains (sch.)
+40000	Poson Special Poson Season
+40001	Special Train Special
+40006	Poson Special Poson Season
+40007	Poson Special Poson Season
+40008	Poson Special Poson Season
+40009	Poson Special Poson Season
+40010	Poson Special Poson Season
+40015	Poson Special Poson Season
+40017	Poson Special Poson Season
+40019	Poson Special Poson Season
+40900	Local Trains
+50005	Special Trains (sch.)
+60001	School Vacation Special School Vacation
+80000	Special Train Special
+80001	Special Train Special
+83310	Colombo Commuter
+83339	Colombo Commuter
