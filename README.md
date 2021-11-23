@@ -13,3 +13,4 @@
   *  [2021-11-23 03:44PM] Initial files
   *  [2021-11-23 04:54PM] Added TrainList and StopList
   *  [2021-11-23 05:53PM] SearchEngine
+  *  [2021-11-23 06:05PM] Added AppBar
