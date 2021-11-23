@@ -12,3 +12,4 @@
   *  [2021-09-25 08:38AM] Changed Browser to Firefox; Removed failing tests
   *  [2021-11-23 03:44PM] Initial files
   *  [2021-11-23 04:54PM] Added TrainList and StopList
+  *  [2021-11-23 05:53PM] SearchEngine
