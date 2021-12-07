@@ -1,42 +1,36 @@
+import { Component } from "react";
 import TableRow from "@mui/material/TableRow";
 import TableCell from "@mui/material/TableCell";
-import Typography from "@mui/material/Typography";
+import StopList from "../../core/StopList.js";
+import StopListView from "./StopListView.js";
 
-function TimeView({ t }) {
-  if (!t) {
-    return "-";
+export default class TrainInfoView extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { stopList: null };
   }
-  let h = parseInt(t / 3600);
-  const m = parseInt((t % 3600) / 60);
-  let p = "AM";
-  if (h === 12) {
-    p = "PM";
-  } else if (h === 24) {
-    h = 0;
-    p = "AM";
-  } else if (h > 12) {
-    h -= 12;
-    p = "PM";
+  async componentDidMount() {
+    const { train } = this.props;
+    const { trainNo } = train;
+    const stopList = await StopList.get(trainNo);
+    this.setState({ stopList });
   }
-  const text = `${String(h).padStart(2, "0")}:${String(m).padStart(
-    2,
-    "0"
-  )}${p}`;
-  return <Typography>{text}</Typography>;
-}
 
-export default function TrainInfoView({ trainInfo }) {
-  const { trainNo, name, timeArrive, timeDepart } = trainInfo;
-  return (
-    <TableRow>
-      <TableCell>
-        <TimeView t={timeArrive} />
-      </TableCell>
-      <TableCell>
-        <TimeView t={timeDepart} />
-      </TableCell>
-      <TableCell>{trainNo}</TableCell>
-      <TableCell>{name}</TableCell>
-    </TableRow>
-  );
+  render() {
+    const { stopList } = this.state;
+    if (!stopList) {
+      return "Loading...";
+    }
+    const { train } = this.props;
+    const { trainNo, name } = train;
+    return (
+      <TableRow>
+        <TableCell>{trainNo}</TableCell>
+        <TableCell>{name}</TableCell>
+        <TableCell>
+          <StopListView trainNo={trainNo} stopList={stopList} />
+        </TableCell>
+      </TableRow>
+    );
+  }
 }

@@ -9,7 +9,7 @@ import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import Paper from "@mui/material/Paper";
 
-import SearchEngine from "../../core/SearchEngine.js";
+import TrainList from "../../core/TrainList.js";
 import TrainInfoView from "../molecules/TrainInfoView.js";
 
 const DEFAULT_ACTIVE_STATION_NAME = "Maradana";
@@ -24,15 +24,14 @@ export default class HomePage extends Component {
   }
 
   async componentDidMount() {
-    const trainInfoList = await SearchEngine.getTrainsForStation(
-      this.state.activeStationName
-    );
-    this.setState({ trainInfoList });
+    const trainList = await TrainList.get();
+    console.debug(trainList);
+    this.setState({ trainList });
   }
 
   render() {
-    const { activeStationName, trainInfoList } = this.state;
-    if (!trainInfoList) {
+    const { trainList } = this.state;
+    if (!trainList) {
       return "Loading...";
     }
 
@@ -43,18 +42,13 @@ export default class HomePage extends Component {
             <Typography variant="h6">🇱🇰 Railways</Typography>
           </Toolbar>
         </AppBar>
-        <Box sx={{ margin: 3 }}>
-          <Typography variant="h4">
-            <strong>{activeStationName}</strong> Railway Station
-          </Typography>
-        </Box>
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableBody>
-              {trainInfoList.map((trainInfo) => (
+              {trainList.map((train) => (
                 <TrainInfoView
-                  key={`train-info-${trainInfo.trainNo}`}
-                  trainInfo={trainInfo}
+                  key={`train-info-${train.trainNo}`}
+                  train={train}
                 />
               ))}
             </TableBody>
