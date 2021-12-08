@@ -7,7 +7,7 @@ export function getTimeCurrent() {
 }
 
 export default class SearchEngine {
-  static async getTrainListExtended() {
+  static async getTrainListExtended(filterText) {
     const trainList = await TrainList.get();
     const stopListList = await Promise.all(
       trainList.map(async function (d) {
@@ -28,7 +28,11 @@ export default class SearchEngine {
         });
       })
       .filter(function (train) {
-        return train.stopLastDepart && train.stopNextArrive;
+        return (
+          train.stopLastDepart &&
+          train.stopNextArrive &&
+          train.stopNextArrive.stationName.includes(filterText)
+        );
       })
       .sort(function (trainA, trainB) {
         return (
@@ -46,7 +50,7 @@ export default class SearchEngine {
           const stop2 = stopList[iStop];
           if (
             stop1.timeArrive <= timeCurrent + 60 &&
-            stop2.timeDepart >= timeCurrent - 60
+            stop2.timeDepart >= timeCurrent
           ) {
             return [stop1, stop2];
           }

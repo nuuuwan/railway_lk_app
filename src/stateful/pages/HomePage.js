@@ -12,21 +12,20 @@ import Paper from "@mui/material/Paper";
 import SearchEngine from "../../core/SearchEngine.js";
 import TrainInfoView from "../molecules/TrainInfoView.js";
 
-const DEFAULT_ACTIVE_STATION_NAME = "Maradana";
-
 export default class HomePage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeStationName: DEFAULT_ACTIVE_STATION_NAME,
+      filterText: "M",
       trainInfoList: [],
     };
   }
 
   async componentDidMount() {
+    const { filterText } = this.state;
     this.interval = setInterval(
       async function () {
-        const trainList = await SearchEngine.getTrainListExtended();
+        const trainList = await SearchEngine.getTrainListExtended(filterText);
         this.setState({ time: Date.now(), trainList });
       }.bind(this),
       1000

@@ -21,3 +21,4 @@
   *  [2021-12-07 06:17PM] Done
   *  [2021-12-08 07:17AM] 12/7
   *  [2021-12-08 07:24AM] Added TrainInfoView
+  *  [2021-12-08 07:38AM] Added filterText
