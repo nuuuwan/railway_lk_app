@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/railway_lk_app/static/css/main.dd9a65d5.chunk.css",
+    "main.js": "/railway_lk_app/static/js/main.50692c18.chunk.js",
+    "main.js.map": "/railway_lk_app/static/js/main.50692c18.chunk.js.map",
+    "runtime-main.js": "/railway_lk_app/static/js/runtime-main.c0c80dbb.js",
+    "runtime-main.js.map": "/railway_lk_app/static/js/runtime-main.c0c80dbb.js.map",
+    "static/js/2.5e26c0e7.chunk.js": "/railway_lk_app/static/js/2.5e26c0e7.chunk.js",
+    "static/js/2.5e26c0e7.chunk.js.map": "/railway_lk_app/static/js/2.5e26c0e7.chunk.js.map",
+    "static/js/3.85f3c6f4.chunk.js": "/railway_lk_app/static/js/3.85f3c6f4.chunk.js",
+    "static/js/3.85f3c6f4.chunk.js.map": "/railway_lk_app/static/js/3.85f3c6f4.chunk.js.map",
+    "index.html": "/railway_lk_app/index.html",
+    "static/css/main.dd9a65d5.chunk.css.map": "/railway_lk_app/static/css/main.dd9a65d5.chunk.css.map",
+    "static/js/2.5e26c0e7.chunk.js.LICENSE.txt": "/railway_lk_app/static/js/2.5e26c0e7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0c80dbb.js",
+    "static/js/2.5e26c0e7.chunk.js",
+    "static/css/main.dd9a65d5.chunk.css",
+    "static/js/main.50692c18.chunk.js"
+  ]
+}
