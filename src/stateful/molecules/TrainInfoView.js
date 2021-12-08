@@ -7,8 +7,6 @@ export default function TrainInfoView({ train }) {
   const { trainNo, name, stopList, stopNextArrive } = train;
   const timeCurrent = getTimeCurrent();
 
-  console.debug(stopNextArrive);
-
   let details;
   if (stopNextArrive.timeArrive > timeCurrent) {
     const dTime = stopNextArrive.timeArrive - timeCurrent;
