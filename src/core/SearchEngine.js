@@ -45,8 +45,8 @@ export default class SearchEngine {
           const stop1 = stopList[iStop - 1];
           const stop2 = stopList[iStop];
           if (
-            stop1.timeArrive <= (timeCurrent + 60) &&
-            stop2.timeDepart >= (timeCurrent - 60)
+            stop1.timeArrive <= timeCurrent + 60 &&
+            stop2.timeDepart >= timeCurrent - 60
           ) {
             return [stop1, stop2];
           }
